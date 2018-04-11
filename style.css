@@ -7,3 +7,13 @@
 .margin-top-20 {
     margin-top:20px;
 }
+
+.big {
+  width: 500px;
+  height: 500px;
+}
+
+.small {
+  width: 100px;
+  height: 100px;
+}

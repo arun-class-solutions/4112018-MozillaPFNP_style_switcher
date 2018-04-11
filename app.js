@@ -27,4 +27,24 @@ document.addEventListener("DOMContentLoaded", function() {
     .setAttribute("style", "background-color: blue");
   });
 
+  // Big and Small divs
+
+  document
+  .querySelector("#make-big")
+  .addEventListener("click", function() {
+    document
+    .querySelector("#big-div")
+    .classList
+    .add("big");
+  });
+
+  document
+  .querySelector("#make-small")
+  .addEventListener("click", function() {
+    document
+    .querySelector("#small-div")
+    .classList
+    .add("small");
+  });
+
 });
