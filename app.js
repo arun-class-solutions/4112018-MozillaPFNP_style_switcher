@@ -58,4 +58,14 @@ document.addEventListener("DOMContentLoaded", function() {
     .add("rotate-me");
   });
 
+  // Create full-screen overlay
+
+  document
+  .querySelector("#create-overlay")
+  .addEventListener("click", function() {
+    document
+    .querySelector("#overlay")
+    .setAttribute("style", "display: block");
+  });
+
 });
