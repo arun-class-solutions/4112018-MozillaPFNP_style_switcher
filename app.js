@@ -47,4 +47,15 @@ document.addEventListener("DOMContentLoaded", function() {
     .add("small");
   });
 
+  // Animated div
+
+  document
+  .querySelector("#animate-div")
+  .addEventListener("click", function() {
+    document
+    .querySelector("#animated-div")
+    .classList
+    .add("rotate-me");
+  });
+
 });
